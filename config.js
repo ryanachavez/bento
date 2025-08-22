@@ -11,16 +11,16 @@ const CONFIG = {
 	// └─┘┴ ┴└─┘┴└─┘└─┘
 
 	// General
-	name: 'John',
+	name: '',
 	imageBackground: false,
-	openInNewTab: true,
-	twelveHourFormat: false,
+	openInNewTab: false,
+	twelveHourFormat: true,
 
 	// Greetings
-	greetingMorning: 'Good morning!',
-	greetingAfternoon: 'Good afternoon,',
-	greetingEvening: 'Good evening,',
-	greetingNight: 'Go to Sleep!',
+	greetingMorning: '',
+	greetingAfternoon: '',
+	greetingEvening: '',
+	greetingNight: '',
 
 	// Layout
 	bentoLayout: 'bento', // 'bento', 'lists', 'buttons'
@@ -53,7 +53,7 @@ const CONFIG = {
 	firstButtonsContainer: [
 		{
 			id: '1',
-			name: 'Github',
+			name: 'Hacker News',
 			icon: 'github',
 			link: 'https://github.com/',
 		},
